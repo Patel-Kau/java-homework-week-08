@@ -40,12 +40,12 @@ public class SimpleCalculator {
     public static void main(String[] args) {
 
         SimpleCalculator calculator = new SimpleCalculator();       //object creation
-        calculator.setFirstNumber(5.0);//set value for first number
-        calculator.setSecondNumber(4);// set value for second number
+        calculator.setFirstNumber(5.0);     //set value for first number
+        calculator.setSecondNumber(4);      // set value for second number
         System.out.println("add= " + calculator.getAdditionResult());   //print statement
         System.out.println("subtract= " + calculator.getSubtractionResult()); //print statement
-        calculator.setFirstNumber(5.25);//set value for first number
-        calculator.setSecondNumber(0);// set value for second number
+        calculator.setFirstNumber(5.25);    //set value for first number
+        calculator.setSecondNumber(0);      // set value for second number
         System.out.println("multiply= " + calculator.getMultiplicationResult());
         System.out.println("divide= " + calculator.getDivisionResult());
     }

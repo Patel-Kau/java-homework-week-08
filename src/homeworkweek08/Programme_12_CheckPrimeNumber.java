@@ -16,7 +16,7 @@ public class Programme_12_CheckPrimeNumber {
         System.out.println("Enter any number: ");
         int n = sc.nextInt();
         isPrime(n);
-        sc.close();
+        sc.close();  // Scanner object closing
     }
     public static void isPrime(int num) {
         boolean isPrime;

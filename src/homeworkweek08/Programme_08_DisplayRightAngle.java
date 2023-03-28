@@ -1,5 +1,13 @@
 package homeworkweek08;
 
+/**
+ *  This is the program to Display right angle triangle of @ using nested for loops
+ *  @
+ *  @@
+ *  @@@
+ *  @@@@
+ *  @@@@@
+ */
 public class Programme_08_DisplayRightAngle {
 
     public static void main(String[] args) {
@@ -16,12 +24,12 @@ public class Programme_08_DisplayRightAngle {
             //loop for columns
             for (c = 0; c <= r; c++) {
 
-                //prints num
+
                System.out.print("@ ");
-                //incrementing the value of number
+                //incrementing the number
                 number++;
             }
-            //throws the cursor at the next line after printing each row
+
             System.out.println();
         }
     }

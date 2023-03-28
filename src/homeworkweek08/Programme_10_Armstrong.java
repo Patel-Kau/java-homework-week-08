@@ -5,7 +5,7 @@ package homeworkweek08;
 
 import java.util.Scanner;
 public class Programme_10_Armstrong {
-    // check if the number is Armstrong or not
+
     static boolean isArmstrong(int n)
     {
         int temp;
@@ -25,7 +25,7 @@ public class Programme_10_Armstrong {
         temp = n;
         while(temp>0)
         {
-//determines the last digit from the number
+//find the last digit from the number
             last = temp % 10;
 //calculates the power of a number up to digit times and add the resultant to the sum variable
             sum +=  (Math.pow(last, digits));

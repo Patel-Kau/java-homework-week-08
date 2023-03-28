@@ -15,6 +15,7 @@ package homeworkweek08;
  *  12345678
  *  123456789
  *  12345678910
+ *
  */
 public class Programme_06_TrianglePattern {
 

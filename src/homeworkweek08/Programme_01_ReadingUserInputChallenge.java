@@ -34,11 +34,10 @@ public class Programme_01_ReadingUserInputChallenge {
             sc.nextLine();
         }
        Programme_01_ReadingUserInputChallenge obj = new Programme_01_ReadingUserInputChallenge();
-        System.out.println("Total value " + obj.calculation(num));
-
-
-        sc.close();
+        System.out.println("Total value " + obj.calculation(num));      //  calculation method called
+        sc.close();                                                     // Closing scanner object.
     }
+    // Method for calculating sum of the numbers
     public int calculation(int num){
         int answer;
         answer= num + num;
